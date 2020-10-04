@@ -14,4 +14,5 @@ $  `docker run --rm -p 8080:80 emgtest`
 3.access localhost:8080 from the browser.
 
 *Alternative, if docker is not available,  you can start a php7.4 webserver within the project /app folder (cd app)
+
 $ `php -S localhost:8080`
