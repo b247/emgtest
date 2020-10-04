@@ -1,0 +1,17 @@
+{
+  "name": "b247_eu/emgtest",
+  "type": "project",
+  "license": "LGPLv3",
+  "authors": [
+    {
+      "name": "Cătălin",
+      "email": "webmaster@b247.eu.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "./"
+    }
+  },
+  "require": {}
+}

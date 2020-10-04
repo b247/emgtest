@@ -1,0 +1,21 @@
+version: "3.3"
+services:
+
+  dk-php-dso:
+    hostname: emgtest.localnet
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+
+    image: emgtest
+    ports:
+      - 8080:80
+
+    volumes:
+      - ./app:/var/www/emgtest.localnet/public
+
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: "0.6g"
