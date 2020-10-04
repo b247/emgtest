@@ -8,6 +8,7 @@ How to run:
 
 $ `docker build -f docker/Dockerfile -t emgtest -c 2 -m 0.6g --memory-swap 2g .
 `
+
 $  `docker run --rm -p 8080:80 emgtest`
 
 3.access localhost:8080 from the browser.
